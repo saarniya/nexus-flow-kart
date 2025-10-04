@@ -60,7 +60,6 @@ const Login = () => {
                   {error.data?.message || 'Login failed. Please check your credentials.'}
                 </div>
               )}
-              
               <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                   <label htmlFor="email" className="form-label">Email</label>
